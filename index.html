@@ -1,0 +1,28 @@
+<!--NgS-Magic Eight Ball-->
+<!--Magic Eight Ball-->
+<!--08/04/24-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Sue Ng">
+  <title>NgS-Magic Eight Ball</title>
+  <link href="magiceightball.css" rel="stylesheet" type="text/css">
+  <script src="magiceightball.js"></script>
+</head>
+
+<body>
+  <div id="meb">
+    <h2>Magic Eight Ball Game</h2>
+  </div>
+  <script>
+    //html page
+    let output = "Your question: " + question + "<br>" + "Magic Eight Ball Response:  " + response;
+    document.getElementById('magiceightball').innnerHTML = output;
+    document.writeln(output);            
+  </script>
+</body>
+
+</html>
